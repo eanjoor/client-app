@@ -1,0 +1,38 @@
+span {
+    display: table-cell;
+    padding: 0 0 0 5px
+}
+
+fieldset{
+   width:50%;
+}
+
+input {
+  display: block;
+  width: 25%;
+  padding: .5rem;
+  box-sizing: border-box;
+}
+
+.add-button {
+ padding: .5rem 1.5rem;
+ font-size: 1rem;
+ margin-bottom: 2rem;
+}
+
+.add-button:hover {
+  color: white;
+  background-color: #42545C;
+}  
+
+.clients li {
+  position: relative;
+  cursor: default;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.clients li:hover {
+  left: .2em;
+  font-weight:bold;
+}
